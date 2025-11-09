@@ -73,3 +73,4 @@ with DAG(
 
     # Set dependencies between tasks
     extract_data >> transform_data >> load_data
+
