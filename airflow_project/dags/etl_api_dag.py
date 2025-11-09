@@ -72,8 +72,6 @@ with DAG(
     transformed_market_data = flatten_market_data(raw_market_data)
     load_market_data(transformed_market_data)
 
-    
-
 
         
         
